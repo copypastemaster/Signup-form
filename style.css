@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Shantell+Sans:ital,wght@1,300&family=Tilt+Prism&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --margins: 20px;
+    --font-size: clamp(6px, 10px, 14px);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#main-container {
+    display: flex;
+}
+
+#left-panel, #right-panel {
+    height: 100vh;
+}
+
+#left-panel {
+    width: 40vw;
+    border: 1px solid red;
+}
+
+#right-panel {
+    display: flex;
+    flex-flow: column;
+    width: 60vw;
+    background-color: rgba(224, 232, 236, 0.8);
+}
+
+.texts1 {
+    flex-basis: 37vh;
+    display: flex;
+    flex-flow: column;
+    gap: 38%; 
+}
+
+.texts2 {
+    height: 26vh;
+}
+
+.texts3 {
+    height: 37vh;
+}
+
+.texts1 > h1 {
+    font-size: clamp(16px, 24px, 32px);
+    margin: 20px;
+}
+
+.texts2 {
+    display: flex;
+    flex-flow: row;
+    gap: 17%;
+    /* margin: var(--margins); */
+}
+
+h2 {
+    margin: var(--margins);
+}
+
+.first-row, .second-row {
+    width: 15%;
+}
+
+.texts3 button {
+    margin: var(--margins);
+}
+
+.texts3 p {
+    margin: var(--margins);
+}
+
+.texts2 label {
+    
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: var(--margins);
+}
+
+.first-row label, .second-row label {
+    font-size: var(--font-size);
+}
+
+.texts2 {
+    box-shadow: 2px 2px 6px rgb(80, 82, 92);
+    border-radius: 2px 2px 1px 1px;
+}
+
+button {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(11, 218, 80);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
