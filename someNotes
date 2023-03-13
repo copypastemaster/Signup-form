@@ -1,0 +1,70 @@
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+
+input uncommon attributes:
+
+readonly
+disabled
+placeholder
+size
+spellcheck
+required
+minlength / maxlength -- strings
+min/max -- nums 
+pattern // regExp
+autocomplete="[name]"
+
+
+input type = "file" // chooses file
+
+pseudo-elements:
+
+:required;
+:optional;
+:valid
+:invalid
+:in-range
+:out-of-range
+:enabled
+:disabled
+:read-only
+:read-write
+:checked
+:indeterminate
+:default
+
+
+for regex : https://www.html5pattern.com/
+
+Characters
+
+Escape character: \
+Any character: .
+Digit: \d
+Not a digit: \D
+Word character: \w
+Not a word character: \W
+Whitespace: \s
+Not whitespace: \S
+Word boundary: \b
+Not a word boundary: \B
+Beginning of a string: ^
+End of a string: $
+
+
+
+Groupings
+
+Matches characters in brackets: [ ]
+Matches characters not in brackets: [^ ]
+Either or: |
+Capturing group: ( )
+
+
+
+Quantifiers
+
+0 or more: *
+1 or more: +
+0 or 1: ?
+An exact number of characters: { }
+Range of number of characters: {Minimum, Maximum}
