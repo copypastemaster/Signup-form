@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Shantell+Sans:ital,wght@1,300&family=Tilt+Prism&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Noto+Sans+JP:wght@300&family=Shantell+Sans:ital,wght@1,300&family=Tilt+Prism&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,11 @@
     --margins: 20px;
     --font-size: clamp(6px, 10px, 14px);
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-image: url(/wallpapersden.com_cyberpunk-edgerunners-season-1-team-hd_1920x1080.jpg);
+    background-repeat: no-repeat;
 }
 
 #main-container {
@@ -19,21 +26,20 @@
 
 #left-panel {
     width: 40vw;
-    border: 1px solid red;
 }
 
 #right-panel {
     display: flex;
     flex-flow: column;
     width: 60vw;
-    background-color: rgba(224, 232, 236, 0.8);
+    background-color: rgba(1, 17, 26, 0.8);
 }
 
 .texts1 {
     flex-basis: 37vh;
     display: flex;
     flex-flow: column;
-    gap: 38%; 
+    justify-content: space-around;
 }
 
 .texts2 {
@@ -47,6 +53,7 @@
 .texts1 > h1 {
     font-size: clamp(16px, 24px, 32px);
     margin: 20px;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .texts2 {
@@ -58,6 +65,7 @@
 
 h2 {
     margin: var(--margins);
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .first-row, .second-row {
@@ -88,7 +96,7 @@ h2 {
 }
 
 .texts2 {
-    box-shadow: 2px 2px 6px rgb(80, 82, 92);
+    box-shadow: 2px 2px 6px rgb(168, 170, 182);
     border-radius: 2px 2px 1px 1px;
 }
 
@@ -96,7 +104,30 @@ button {
     font-size: 15px;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgb(11, 218, 80);
-    color: rgb(255, 255, 255);
+    background-color: rgb(111, 20, 172);
+    color: rgb(208, 207, 211);
     font-weight: 800;
+    border: none;
+}
+
+
+#left-panel img {
+    position: relative;
+    top: 1.5%;
+    left: 28%;
+    width: 45%;
+    border-radius: 25px 50px 30px;
+}
+
+.texts1 > h1 {
+    color: rgb(140, 113, 161);
+    font-size: clamp(18px, 28px, 60px);
+}
+
+h2, label {
+    color:rgb(208, 207, 211);
+}
+
+p, a {
+    color: rgb(223, 224, 230);
 }
