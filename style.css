@@ -96,7 +96,7 @@ h2 {
 }
 
 .texts2 {
-    box-shadow: 2px 2px 6px rgb(168, 170, 182);
+    box-shadow: 2px 2px 6px rgb(72, 59, 245);
     border-radius: 2px 2px 1px 1px;
 }
 
@@ -104,7 +104,7 @@ button {
     font-size: 15px;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgb(111, 20, 172);
+    background-color: rgb(2, 29, 80);
     color: rgb(208, 207, 211);
     font-weight: 800;
     border: none;
@@ -117,6 +117,10 @@ button {
     left: 28%;
     width: 45%;
     border-radius: 25px 50px 30px;
+}
+
+.img-container {
+    background-color: rgba(1, 17, 26, 0.5);
 }
 
 .texts1 > h1 {
