@@ -1,6 +1,9 @@
 
 const spans = document.querySelector(".check");
 
+const pass1 = document.querySelector("#password");
+const pass2 = document.querySelector("#confirmPass");
+
 
 const check = () => {
 
@@ -21,6 +24,7 @@ const check = () => {
         } else {
             form.addEventListener('submit', (e) => {
                 e.stopPropagation();
+                
             })
 
             spans.style.backgroundColor = "green";
